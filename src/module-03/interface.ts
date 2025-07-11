@@ -9,3 +9,4 @@ const GF1: GirlFriendList = {
     age : 22,
     height : 5.4
 }
+// Best Practice of Interface in object
