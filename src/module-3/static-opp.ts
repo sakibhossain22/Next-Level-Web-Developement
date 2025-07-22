@@ -1,14 +1,16 @@
 // static opp
 class Counter {
-    count: number = 0
+   static count: number = 0
 
-    increament() {
-        this.count = this.count + 1
+   static increament() {
+        Counter.count = Counter.count + 1
     }
-    decreament() {
-        this.count = this.count - 1
+   static decreament() {
+        Counter.count = Counter.count - 1
     }
 }
 
 const call1 = new Counter()
+console.log(Counter.increament());
 const call2 = new Counter()
+console.log(Counter.decreament());
